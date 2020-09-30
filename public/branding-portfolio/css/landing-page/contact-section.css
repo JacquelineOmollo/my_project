@@ -1,0 +1,34 @@
+.form-group {
+  width: 80%;
+  padding: 15px;
+  margin: 0 auto;
+}
+
+.form-group button {
+  margin-top: 10px;
+}
+
+.form-control {
+  padding: 20px;
+}
+
+.btn-primary:hover {
+  background-color: #52b8ff;
+}
+button,
+.form-control {
+  padding-top: 1px%;
+}
+
+
+.btn,
+.btn-primary {
+  background-color: #fecb5d;
+  border: none;
+  color: black;
+ 
+}
+
+label {
+  padding-bottom: 10px;
+}
