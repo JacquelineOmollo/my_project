@@ -20,10 +20,20 @@ body {
 }
 
 header {
+  position: fixed; 
+  width: 100%;
+  top: 0;
   display: flex;
   padding: 20px;
   justify-content: space-between;
+  z-index: 100000;
+  background: #ffc853 ;
 }
+
+header.sticky {
+padding: 5px, 100px;
+}
+
 header .logo {
   font-size: 1.5rem;
   font-weight: 700;
@@ -51,7 +61,7 @@ header .header-menu a {
   text-decoration: none;
   color: black;
   padding: 0 10px;
-  /*transition: all .3s ease-in-out; */
+  
 }
 header .header-menu a:hover {
   font-weight: 700;
@@ -67,12 +77,6 @@ header .menu-btn {
   font-size: 1.6rem;
   display: none;
   cursor: pointer;
-}
-
-.sticky {
-  position: fixed;
-  top: 0;
-  width: 100%
 }
 
 .mobile-menu {
@@ -101,8 +105,8 @@ header .menu-btn {
 }
 .mobile-menu a:hover {
   text-decoration: none;
-  color: white;
-  background: #ff5253;
+  color: black;
+  background:rgb(53, 255, 97);
 }
 @media only screen and (max-width: 960px) {
   .container {

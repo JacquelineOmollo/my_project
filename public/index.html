@@ -58,4 +58,11 @@
     
     console.log(menuBtn[0]);
     </script>
+
+    <script type="text/Javascript">
+    window.addEventListener("scroll", =>{
+      const header= document.querySelector("header");
+      header.classList.toggle("sticky", window.scrollY > 0)
+    })
+    </script>
 </html>
