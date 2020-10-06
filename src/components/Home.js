@@ -25,9 +25,7 @@ function Home() {
                                 JO
                             </a>
                             </div>
-                            <a href="index.html" className="name"></a>
                             <div className="header-menu">
-                            <a href="index.html" className="name"></a>
                             <a href="index.html">Home</a>
                             <a href="index.html#services-section">About</a>
                             <a href="index.html#portfolio-section">Portfolio</a>
