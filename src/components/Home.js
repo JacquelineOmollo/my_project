@@ -69,35 +69,28 @@ function Home() {
                                 <i className="fas fa-trophy" />
                                 <h5>Learning Ability</h5>
                                 <p>
-                                    Originally I taught my self the basics of programming almost two
-                                    years ago with a strong desire to transform my career into a
-                                    Software Engineer. Quickly I came to a conclusion that I need to be
-                                    among a group of like minded people that I can work with and learn
-                                    along side of them. This is where my journey started with Lambda
-                                    School. Team Leader of eight student to get
+                                    Originally I taught my self the basics of programming almost three
+                                    years ago with a strong desire to become a Software Engineer. 
+                                    I concluded that I love learning new and able to pick up technologies quickly.
                                 </p>
                                 </div>
                                 <div className="box red">
                                 <i className="fas fa-plane" />
                                 <h5>Best Qualities</h5>
                                 <p>
-                                    My qualities can be sum up in these seven words: Drive, Willpower,
-                                    Passion, Integrity,Connection and Communication. I value myself in
-                                    having the drive to learn new things and having the will and passion
-                                    to push myself to grow in my craft a little more each day. Thrive
-                                    when connecting with people and exhibit constructive communication
-                                    to come up with creative solutions. Meanwhile, professing integrity
-                                    with the community.
+                                    My qualities can be sum up in these six words: Drive, Passion, Integrity, Connection, and Communication. 
+                                    I value myself in having the drive to learn new things and having the will and passion to improve in my craft a little more each day. 
+                                    Thrive when connecting with people and exhibit constructive communication to come up with creative solutions. 
+                                    Meanwhile, professing integrity with the community.
                                 </p>
                                 </div>
                                 <div className="box yellow">
                                 <i className="fas fa-money-check-alt" />
                                 <h5>Leadership Qualities</h5>
                                 <p>
-                                    Team Leader in a internship position mentoring eight students.able
-                                    to be honest when I don't know something and make myself accountable
-                                    to finding out the answers to questions I don't know. Coming up with
-                                    creative ways to make students understand technical concepts.
+                                    Experience in being a Team Leader in an internship position mentoring students. 
+                                    Able to be honest when I don't know something and make myself accountable for finding out the answers to questions I don't know. 
+                                    Coming up with creative ways to make students understand technical concepts.
                                 </p>
                                 </div>
                             </div>
@@ -198,20 +191,15 @@ function Home() {
                                     <h4>Lambda School - Team Leader</h4>
                                     <span className="date">September 2019 - present</span>
                                     <p>
-                                    Provide daily feedback and issue resolution of all curriculum
-                                    questions. <br />
-                                    Deliver one-on-one feedback and code review on a daily basis.{" "}
+                                    Provide daily feedback and issue resolution of all curriculum questions. <br />
+                                    Deliver one-on-one feedback and code review daily.
                                     <br />
-                                    Mentor students on how to learn effectively and solve programming
-                                    problems.
+                                    Mentor students on how to learn effectively and solve programming problems.
                                     <br />
-                                    Review student code and deliver feedback on areas of improvement.{" "}
+                                    Review student code and deliver feedback on areas of improvement.
                                     <br />
-                                    Lead daily stand-up meetings to build camaraderie, facilitate the
-                                    sharing of ideas and work-progress, and provide guidance for that
-                                    week’s study material. <br />
-                                    Act as Project Lead for a national and international teams during
-                                    build week.
+                                    Lead daily stand-up meetings to build camaraderie, facilitate the sharing of ideas and work progress, and guide that week’s study material. <br />
+                                    Act as Project Lead for national and international teams during build weeks.
                                     </p>
                                 </div>
 
