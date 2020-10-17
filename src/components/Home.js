@@ -2,23 +2,26 @@ import React from "react";
 import * as emailjs from "emailjs-com";
 
 function Home() {
-    
+    // Form Email
     function sendEmail(e) {
         e.preventDefault();
-
-        emailjs.sendForm(process.env.REACT_APP_YOUR_SERVICE_ID, process.env.REACT_APP_YOUR_TEMPLATE_ID, e.target, process.env.REACT_APP_YOUR_USER_ID)
+            // emailjs.sendForm(process.env.REACT_APP_YOUR_SERVICE_ID, process.env.REACT_APP_YOUR_TEMPLATE_ID, e.target, process.env.REACT_APP_YOUR_USER_ID)
+            emailjs.sendForm('service_5xabo2p', 'template_abzwa58', e.target, 'user_kUZc3aSbEQRiogWBbjwDS' )
             .then((result) => {
                 console.log(result.text);
             }, (error) => {
                 console.log(error.text);
              });
+             
              e.target.reset();
-    }
+            }
+    
 
     return (
         <div>
             <div >
-                <div>
+                {/* Navigation Section */}
+                <div>    
                         <header>
                             <div className="logo">
                             <a href="index.html" className="name">
@@ -56,6 +59,7 @@ function Home() {
                             </div>
                             </div>
                         </section>
+                        {/* About Section */}
                         <section id="services-section">
                             <div className="container">
                             <div className="title">
@@ -94,6 +98,7 @@ function Home() {
                             </div>
                             </div>
                         </section>
+                        {/* Portfolio Sction */}
                         <section id="portfolio-section">
                             <div className="container">
                             <div className="title">
@@ -167,6 +172,7 @@ function Home() {
                             </div>
                             </div>
                         </section>
+                        {/* Experience Section */}
                         <section id="experience-section">
                             <div className="container">
                             <div className="large-title">Experience</div>
@@ -205,13 +211,14 @@ function Home() {
                             </div>
                             </div>
                         </section>
+                        {/* Contect Section */}
                         <section id="testimonials-section">
                             <div className="container">
                             <div className="title">
                                 <div className="square" />
                                 <h1>Contact</h1>
                             </div>
-                            <form onSubmit={sendEmail}>
+                            <form onSubmit={sendEmail} >
                                 <div>
                                 <div className="form-group">
                                     <label htmlFor="exampleInputName1"></label>
@@ -252,6 +259,7 @@ function Home() {
                             </form>
                             </div>
                         </section>
+                        {/* Footer */}
                         <footer>
                             <div className="social-container">
                             <a href="https://github.com/JacquelineOmollo">
@@ -272,6 +280,7 @@ function Home() {
             </div>
         </div>
     )
-}
 
+
+}
 export default Home;
