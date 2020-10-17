@@ -5,8 +5,7 @@ function Home() {
     // Form Email
     function sendEmail(e) {
         e.preventDefault();
-            // emailjs.sendForm(process.env.REACT_APP_YOUR_SERVICE_ID, process.env.REACT_APP_YOUR_TEMPLATE_ID, e.target, process.env.REACT_APP_YOUR_USER_ID)
-            emailjs.sendForm('service_5xabo2p', 'template_abzwa58', e.target, 'user_kUZc3aSbEQRiogWBbjwDS' )
+            emailjs.sendForm(process.env.REACT_APP_YOUR_SERVICE_ID, process.env.REACT_APP_YOUR_TEMPLATE_ID, e.target, process.env.REACT_APP_YOUR_USER_ID)
             .then((result) => {
                 console.log(result.text);
             }, (error) => {
