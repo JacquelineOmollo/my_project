@@ -1,8 +1,9 @@
 import React from "react";
-// import * as emailjs from "emailjs-com";
+import * as emailjs from "emailjs-com";
+import{ init }  from 'emailjs-com';
 
-import{ init } from 'emailjs-com';
 init("user_KDNR1x3JMhAH4IspA0ifw");
+
 function Home() {
     // Form Email
     function sendEmail(e) {
